@@ -2,7 +2,7 @@ require 'pry'
 class CashRegister
 
   attr_accessor :total, :discount
-
+  @@itmes = []
    def initialize(total = 0)
      @total = total
      @discount = total.round
@@ -14,6 +14,7 @@ class CashRegister
 
    def add_item(title, price, quantity = 1)
      itmes = []
+     itmes << title
 binding.pry
 
 
