@@ -7,7 +7,7 @@ class CashRegister
      @total = total
      @discount = total.round
      @items = []
-     
+
    end
 
    def total
@@ -18,7 +18,7 @@ class CashRegister
      @title = title
      @price = price
      @quantity = quantity
-     
+
      @quantity.times do
      @itmes << @title
    end
