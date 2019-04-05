@@ -20,8 +20,8 @@ class CashRegister
      @quantity = quantity
 
      @quantity.times do
-     @itmes << @title
-   end
+       @itmes << @title
+     end
    end
 
    def apply_discount
