@@ -20,7 +20,7 @@ class CashRegister
      @quantity = quantity
 
      @quantity.times do
-       @itmes << @title
+       @items << @title
      end
    end
 
