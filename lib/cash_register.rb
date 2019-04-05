@@ -22,6 +22,7 @@ class CashRegister
      @quantity.times do
      @itmes << @title
    end
+   end
 
    def apply_discount
     #  if
