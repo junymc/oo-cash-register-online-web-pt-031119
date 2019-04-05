@@ -8,6 +8,8 @@ class CashRegister
      @discount = total.round
      @items = []
      @title = title
+     @price = price
+     @quantity = quantity
    end
 
    def total
