@@ -9,7 +9,7 @@ class CashRegister
      @items_array = []
 
    end
-   
+
    def add_item(title, price, quantity = 1)
      @title = title
      @price = price
@@ -22,11 +22,12 @@ class CashRegister
    end
 
    def apply_discount
-    #  if
-    #   #  return "After the discount, the total comes to #{total}."
-    #  else
-    #    return " There is no discount to apply."
-    #  end
+     if @discount == 0
+       return " There is no discount to apply."
+     else
+       @total -= @total * @discount / 100
+       return "After the discount, the total comes to #{@total}."
+     end
    end
 
    def items
