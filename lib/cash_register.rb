@@ -31,6 +31,7 @@ class CashRegister
    end
 
    def items
+     @items_array
    end
 
    def void_last_transaction
