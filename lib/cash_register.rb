@@ -9,10 +9,10 @@ class CashRegister
      @items_array = []
 
    end
-
-   def total
-     @total
-   end
+   #
+  #  def total
+  #    @total
+  #  end
 
    def add_item(title, price, quantity = 1)
      @title = title
