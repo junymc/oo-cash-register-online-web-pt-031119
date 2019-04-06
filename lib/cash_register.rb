@@ -22,6 +22,7 @@ class CashRegister
      @quantity.times do
        @items_array << @title
      end
+     @total += @price * @quantity
    end
 
    def apply_discount
